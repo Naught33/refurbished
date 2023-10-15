@@ -1,0 +1,34 @@
+.admin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.login{
+    background: white;
+    border-radius: 20px;
+    width: 300px;
+    height: 200px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 .5rem .5rem rgba(0, 0, 0, 0.048);
+}
+
+.login h3,
+.login .edittable{
+    margin-inline-start: 12px;
+}
+
+.login h3{
+    justify-self: start;
+    align-items: start;
+}
+#log_in_button{
+    width: 60%;
+    justify-self: center;
+    align-self: center;
+}

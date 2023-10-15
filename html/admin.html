@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/index.css">
+    <link rel="stylesheet" href="../assets/css/products.css">
+    <link rel="stylesheet" href="../assets/css/admin.css">
+    <title>Welcome</title>
+</head>
+<body>
+    <div class="row header">
+        <div class="col logo">
+            <img src="../assets/images/logo_refurbished.png" alt="refurbished logo">
+        </div>
+
+        <div class="col navs">
+            <svg width="45" height="41" viewBox="0 0 45 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="45" height="41" fill="black"/>
+                <line x1="3" y1="9.5" x2="42" y2="9.5" stroke="white"/>
+                <line x1="3" y1="21.5" x2="42" y2="21.5" stroke="white"/>
+                <line x1="3" y1="32.5" x2="42" y2="32.5" stroke="white"/>
+                </svg>
+            <ul>
+                <li><a href="products.html">See Products</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="admin">
+        <h1>Welcome Admin</h1>
+        <div class="login" id="login">
+
+            <h3>Log In</h3>
+            <form action="connect_db.php" method="POST">
+                <div class="uname edittable">
+                <label for="username">Username: </label>
+                <input type="text" id="username" name="username">
+            </div>
+
+
+            <div class="pass edittable">
+                <label for="password">Password: </label>
+                <input type="password"  id="password" name="password">
+            </div>
+            <button id="log_in_button" class="buttonlink">Log In</button>
+            </form>
+        </div>
+
+
+        <div class="add_product">
+            <form action="connect_db.php" method="POST">
+
+            </form>
+        </div>
+    </div>
+    
+    <script src="../assets/js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: black;
+    width: 6px;
+    margin: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: rgb(66, 66, 66);
+}
+
+::-webkit-scrollbar-track{
+    background: white;
+}
+
+body{
+    background: black;
+    overflow-x: hidden;
+    transition: .5s;
+    
+}
+
+header{
+    width: 100%;
+}
+
+.navs ul li{
+    list-style-type: none;
+    float: left;
+    margin: 12px;
+}
+
+.navs ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 8px;
+}
+.navs{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navs svg{
+    display: none;
+}
+
+.logo img{
+    transform: scale(0.9);
+}
+
+/* mid section */
+
+.midsection .intro{
+    height: 450px;
+}
+
+.midsection .intro .introcard{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    color: black;
+    margin: 12px;
+    margin-left: 24px;
+    border-radius: 12px;
+    height: 100%;
+
+}
+
+.midsection .intro .introcard h3{
+    margin: 8px;
+}
+
+.midsection .intro .introcard p{
+    margin: 8px;
+    margin-left: 12px;
+    justify-self: center;
+}
+
+.buttonlink{
+    align-self: center;
+    justify-self: end;
+    text-decoration: none;
+    background: black;
+    color: white;
+    margin: 12px;
+    padding: 8px;
+    border-radius: 24px;
+    transition: .4s;
+}
+
+.buttonlink:hover{
+    background-color: rgba(49, 49, 49, 0.863);
+    color: white;
+}
+
+.samples{
+    position: relative;
+    padding: 24px;
+}
+
+.samples{
+    
+    border-radius: 8px;
+}
+
+.sample{
+    position: absolute;
+    background: white;
+    border-radius: 8px;
+    width: 80%;
+    margin: 12px;
+}
+
+.sample h1{
+    font-family: 'Imperial Script', cursive;
+    font-size: 4em;
+    margin: 4px;
+}
+
+.one{
+    right: 5%;
+    top: -10%;
+}
+
+.two{
+    left: 0;
+    bottom: -10%;
+}
+
+.he{
+    display: flex;
+    width: 100%;
+    justify-content: right;
+}
+
+.he h1{
+    margin-right: 24px;
+}
+
+.wrap{
+    display: flex;
+}
+
+.sample_pic{
+    height: 120px;
+    width: 170px;
+    margin: 24px;
+}
+
+.pic_one{
+    background: url(../images/3b2bb3ba59377a3a257bc3deaf0e6897.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.pic_two{
+    background: url(../images/61ZZV8KiX7L.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.description{
+    justify-self: center;
+    align-self: center;
+}
+
+.p_button{
+    display: flex;
+    flex-direction: column;
+}
+
+.p_button a{
+    align-self: center;
+    width: 150px;
+    text-align: center;
+}
+
+.description p{
+    margin: 24px;
+}
