@@ -23,6 +23,7 @@
                 </svg>
             <ul>
                 <li><a href="products.html">See Products</a></li>
+                <li><button id="log_out_button">Log out</button></li>
             </ul>
         </div>
     </div>
@@ -32,7 +33,7 @@
         <div class="login" id="login">
 
             <h3>Log In</h3>
-            <form action="connect_db.php" method="POST">
+            <form action="" method="">
                 <div class="uname edittable">
                 <label for="username">Username: </label>
                 <input type="text" id="username" name="username">
@@ -46,12 +47,45 @@
             <button id="log_in_button" class="buttonlink">Log In</button>
             </form>
         </div>
+        <h1>manage products</h1>
+
+        <div class="add_product" id="inventory">
+            
+            <div class="add_new login">
+                <h3>Add new product</h3>
+                <form action="" method="">
+                    
+
+                <div class="edittable p_name">
+                    <label for="product_name">Name: </label>
+                    <input type="text" name="product_name" id="product_name">
+                </div>
+
+                <div class="edittable p_description">
+                    <label for="product_description">Description: </label>
+                    <input type="text" name="product_description" id="product_description">
+                </div>
 
 
-        <div class="add_product">
-            <form action="connect_db.php" method="POST">
+                <div class="edittable p_price">
+                    <label for="product_price">Price: </label>
+                    <input type="text" name="product_price" id="product_price">
+                </div>
 
-            </form>
+                <div class="edittable p_picture">
+                    <label for="product_picture">Picture: </label>
+                    <input type="file" name="product_picture" id="product_picture" accept="image/x-png,image/gif,image/jpeg">
+                </div>
+
+                <button class="buttonlink">Upload</button>
+                </form>
+            </div>
+            <div class="available_stats login">
+                <h3>inventory</h3>
+                <p><b>Bags in store</b>: 0 </p>
+                <p><b>Total Asset value</b>: Kes 0 </p>
+            </div>
+            
         </div>
     </div>
     
